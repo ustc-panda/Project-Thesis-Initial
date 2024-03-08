@@ -61,6 +61,8 @@ public class User implements Serializable {
     @TableLogic
     private Integer isDelete;
 
+    private String extendJson;
+
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
 }

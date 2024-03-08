@@ -1,12 +1,11 @@
 package org.panda.initial.service.impl;
 
+import org.panda.initial.mapper.UserMapper;
+import org.panda.initial.model.entity.User;
 import org.panda.initial.service.UserService;
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-
-import generator.domain.User;
-import org.panda.initial.mapper.UserMapper;
 
 /**
 * @author panda

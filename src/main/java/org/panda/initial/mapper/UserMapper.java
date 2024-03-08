@@ -1,8 +1,8 @@
 package org.panda.initial.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.panda.initial.model.entity.User;
 
-import generator.domain.User;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
 * @author panda
