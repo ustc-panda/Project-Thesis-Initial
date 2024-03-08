@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: initial
+  # 默认 dev 环境
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/thesis_initial
+    username: root
+    password: jkl123
